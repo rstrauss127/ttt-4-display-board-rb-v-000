@@ -2,9 +2,21 @@
 # out the current state
 board= Array.new
 def display_board(board)
-  puts " #{board(0)} | #{board(1)} | #{board(2)} "
-  puts "-----------"
-  puts " #{board(3)} | #{board(4)} | #{board(5)} "
-  puts "-----------"
-  puts " #{board(6)} | #{board(7)} | #{board(8)} "
+print " #{board[0]} "
+print "|"
+print " #{board[1]} "
+print "|"
+puts " #{board[2]} "
+puts "-----------"
+print " #{board[3]} "
+print "|"
+print " #{board[4]} "
+print "|"
+puts " #{board[5]} "
+puts "-----------"
+print " #{board[6] }"
+print "|"
+print " #{board[7] }"
+print "|"
+print " #{board[8]} "
 end
