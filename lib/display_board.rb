@@ -17,6 +17,6 @@ puts "-----------"
 print " #{board[6]} "
 print "|"
 print " #{board[7]}"
-print "|"
+print " |"
 print " #{board[8]} "
 end
