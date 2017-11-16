@@ -4,9 +4,9 @@ board= Array.new
 def display_board(board)
 print " #{board[0]} "
 print "| "
-print " #{board[1]}"
+print "#{board[1]}"
 print "| "
-puts " #{board[2]}"
+puts "#{board[2]}"
 puts "-----------"
 print " #{board[3]}"
 print " | "
